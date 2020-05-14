@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.monngonviet.MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#EEA9B8"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+        android:gravity="center"
+        android:layout_weight="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Yêu Thích"
+        android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/imgAddPlayer"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/add" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvData"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#ffe8e8e8"
+        android:divider="#ffe8e8e8"
+        android:dividerHeight="0dp" />
+</LinearLayout>

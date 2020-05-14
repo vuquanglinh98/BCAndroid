@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom"
+        android:title="search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_tim"
+        android:icon="@drawable/icon_tim"
+        android:showAsAction="ifRoom"
+        android:title="share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnInfor"
+        android:orderInCategory="100"
+        android:title="Thông tin ứng dụng" />
+</menu>

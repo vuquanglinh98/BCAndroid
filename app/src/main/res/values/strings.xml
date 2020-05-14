@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MonNgonViet</string>
+    <string-array name="arry_coutry">
+        <item> Sinh Tố &amp; Giải Khát</item>
+        <item> Món Khai Vị</item>
+        <item> Món Kho</item>
+        <item> Khác</item>
+        <item> Món Nướng</item>
+        <item> Món Gỏi</item>
+        <item> Món Xào</item>
+        <item> Món Hầm</item>
+        <item> Món Chiên</item>
+        <item> Món Canh</item>
+        <item> Món Chay</item>
+        <item> Món Cơm</item>
+        <item> Món Cuốn</item>
+        <item> Món Cháo</item>
+        <item> Món Bánh</item>
+        <item> Thập Cẩm</item>
+        <item> Món Chè</item>
+        <item> Món Hấp</item>
+        <item> Món Rang</item>
+        <item> Món Bún</item>
+        <item> Món Luộc</item>
+        <item> Món Lẩu</item>
+    </string-array>
+</resources>

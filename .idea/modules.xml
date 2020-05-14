@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNam-master/MNV-master.iml" filepath="$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNam-master/MNV-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNam-master/MonNgonViet.iml" filepath="$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNam-master/MonNgonViet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNam-master/MonNgonViet2-master.iml" filepath="$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNam-master/MonNgonViet2-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNam-master-master/MonNgonVietNam-master.iml" filepath="$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNam-master-master/MonNgonVietNam-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNamS-master/MonNgonVietNam-master-master.iml" filepath="$PROJECT_DIR$/../../../../KA/Downloads/MonNgonVietNamS-master/MonNgonVietNam-master-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MonNgonVietNamS-master.iml" filepath="$PROJECT_DIR$/MonNgonVietNamS-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MonNgonVietNamVN-master.iml" filepath="$PROJECT_DIR$/MonNgonVietNamVN-master.iml" group="MonNgonVietNamVN-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/MonNgonVietNamVN-master-app.iml" filepath="$PROJECT_DIR$/app/MonNgonVietNamVN-master-app.iml" group="MonNgonVietNamVN-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

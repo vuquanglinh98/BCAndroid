@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" >
+
+        <ImageView
+            android:id="@+id/Anh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/muco" />
+
+        <TextView
+            android:id="@+id/TenMonAn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left|center_vertical"
+            android:layout_marginTop="100dp"
+            android:text="ẾCH XÀO"
+            android:paddingLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <TabHost
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tab">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="58dp" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/Tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="60px">
+
+                    <TextView
+                        android:id="@+id/TomTat"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="THỜI GIAN CHẾ BIẾN KHOẢNG 15 PHÚT" />
+                    <TextView
+                        android:id="@+id/TomTat1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:text="Đun nước sôi khoảng thời gan nhất định. Bỏ ếch vào chế biến rồi cho thêm 1 muỗng cà phê nhỏ." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="60px">
+                    <TextView
+                        android:id="@+id/NguyenLieu"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:text="- 300g đùi ếch \n- 300g hoa nhẹ \n- 100g ớt chuông đỏ \n- 30g bột tẩm khô \n- Dầu ăn, muối, tiêu" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="60px">
+                    <TextView
+                        android:id="@+id/CachLam"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="14sp"
+                        android:text="- Ếch sơ chế, rửa sạch, chặt miếng vừa ăn. Ướp ếch 30 phút với 1 thìa cà phê bột canh, 1 thìa nước mắm, 1 thìa nước hàng, tiêu, ớt, hành, tỏi băm nhỏ. Sả và ớt thái nhỏ, hành tỏi băm nhuyễn, hành hoa rửa sạch cắt khúc.\n- Cuối cùng cho hành hoa cắt khúc, 1 chút mì chính nếu thích. Tắt bếp, rắc thêm ít hạt tiêu và dùng nóng. Cho hành tỏi vào chảo dầu nóng phi thơm. Nhanh tay cho ếch vào đảo đều. Thêm sả, ớt vào đảo cùng, nêm thêm gia vị cho vừa miệng." />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </TabHost>
+</LinearLayout>

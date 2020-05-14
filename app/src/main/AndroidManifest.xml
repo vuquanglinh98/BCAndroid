@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.monngonviet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_screen"
+        android:label="Món ngon Việt"
+        android:roundIcon="@drawable/icon_thia"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo.Light">
+        <activity android:name=".mhc"
+            android:label="Món Ngon Việt"
+            android:theme="@android:style/Theme.Holo.Panel">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity2"/>
+        <activity android:name=".menuActivity"/>
+        <activity android:name=".AddpersonActivity"/>
+        <activity android:name=".EditActivity"/>
+        <activity android:name=".LikeActivity"/>
+        <activity android:name=".DgActivity"/>
+        <activity android:name=".MainActivity3"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
